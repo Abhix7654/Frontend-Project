@@ -1,0 +1,113 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: gilroy;
+        color: aliceblue;
+}
+html,body{
+        height: 100%;
+        width: 100%;
+}
+#main{
+        height: 85%;
+        width: 100%;
+        background-color: rgba(37, 37, 37, 0.986);
+        display: flex;
+        padding: 5vw 10vw;
+}
+#left{
+        height: 100%;
+        width: 45%;
+        background-color: rgb(255, 255, 255);
+      
+       background-size: cover;
+       background-position: top;
+       border-radius: 10px;
+      
+       
+}
+#right{
+        height: 100%;
+        width: 55%;
+        background-color: rgb(72, 81, 81);
+        padding: 0 3vw;
+        border-radius: 10px;
+
+}
+#right h3{
+      margin-top: 20px;
+        font-size:40px ;
+}
+#all-songs {
+       
+        height: 80%;
+       margin-top: 20px;
+
+}
+.song-card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 1px solid rgb(147, 145, 145);
+        padding: 15px 10px;
+        
+  
+  }
+  .song-card:hover {
+        background-color: #585656;
+
+  }
+  .song-card:nth-child(4){
+        
+        border-bottom: 1px solid rgb(147, 145, 145);
+  }
+  .song-card .part1 {
+        display: flex;
+        align-items: center;
+        pointer-events: none
+  
+  }
+.song-card img{
+        height: 55px;
+        width: 55px;
+        margin-right: 20px;
+        object-fit: cover;
+        object-position: center;
+}
+.song-card h2{
+      font-size: 22px;
+      font-weight: 500;
+}
+.song-card h6{
+        font-size: 16px;
+        font-weight: 600;
+  }
+  #player{
+        height: 15%;
+        width: 100%;
+        background-color: rgb(32, 37, 44);
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       gap: 15px;
+  }
+  
+  #player h3{
+        background-color: rgba(58, 58, 58, 0.98);
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50px;
+
+  }
+  #player h3{
+        font-size: 24px;
+  }
+  #player h3:active{
+        scale: 0.9;
+
+  }
+  
+
