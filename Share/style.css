@@ -1,0 +1,94 @@
+*{
+margin: 0;
+padding: 0;
+ box-sizing: border-box;
+}
+html,body{
+width: 100%;
+height: 100%;
+}
+#main{
+        width: 100%;
+        height: 100%;
+        background-color: #6e6b6b;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius:10px ;
+
+}
+#phone{
+        width: 24%;
+        height: 75%;
+        background-color: #674545;
+        border-radius:10px ;
+
+}
+#img{
+        height: 100%;
+        background-image: url(./sporty.jpg);
+        position: relative;
+        border-radius:10px ;
+        background-size: cover;
+       background-position: top;
+       
+        
+}
+h3{
+        color: #fff;
+        margin-left: 6%;
+        font-family: gilroy;
+        margin-top: 25px;
+       padding: 6px;
+}
+h2{
+        color: #fff;
+        margin-left: 14px;
+        font-family: sans-serif;
+        font-weight: 200;
+        font-size: 15px;
+        margin-top: 12px;
+       
+}
+#pic{
+        display: flex;
+        margin-left: 6%;
+        margin-top: 10px;
+}
+.logo{
+        width: 40px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: rgb(164, 163, 162);
+}
+#share{
+        width: 100%;
+        height: 46%;
+        position: absolute;
+        margin-top: 96%;
+        background-color: rgba(61, 61, 61, 0.9);
+        overflow: hidden;
+        border-radius:10px ;
+}
+#logo1{
+        background-image: url(./insta.jpg);
+        background-size: cover;
+        background-position: center;
+}#logo2{
+        background-image: url(./terabox.png);
+        background-size: cover;
+        background-position: center;
+}#logo3{
+        background-image: url(./telegram.png);
+        background-size: cover;
+        background-position: center;
+}#logo4{
+        background-image: url(./copy.png);
+        background-size: cover;
+        background-position: center;
+}
+#logo5{
+        background-image: url(./more.jpg);
+        background-size: cover;
+        background-position: center;
+}
