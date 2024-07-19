@@ -119,9 +119,7 @@ height: 100%;
     
    
     
-    .button.wide {
-        /* grid-column: span 2; */
-    }
+    
     
     .button.tall {
        background-color: aliceblue;
