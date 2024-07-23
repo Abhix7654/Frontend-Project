@@ -1,0 +1,300 @@
+*{
+        margin: 0;
+        padding: 0;
+    } /*Reset CSS*/
+    
+    html{
+        scroll-behavior: smooth;
+    }
+    
+    :root{
+        --navbar-height:60px;
+    }
+    /*Nav Bar*/
+    #navbar{
+        display: flex;
+        align-items: center;
+        position: relative;
+        justify-content: center;
+    }
+    
+    #navbar::before{
+        content: "";
+        background-color: black;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 120px;
+        width: 100%;
+        z-index: -1;
+        opacity: 2;
+    }
+    
+    #title{
+        color: rgb(213, 236, 255);
+        font-size: 2.5rem;
+        margin: 12px 80px 12px 0; 
+    }
+    
+            /* logo & image*/
+    #logo{
+        margin: 12px 30px 12px 15px; 
+        justify-content: left;
+    }
+    
+    #logo img{
+        margin: 10px 10px;
+        height: 75px;
+        border-radius: 50%;
+    }
+    
+    /*
+    
+    /*list*/
+    #navbar ul{
+        display: flex;
+        margin: 12px 0px 12px 100px; 
+        font-family: Acme;
+    
+    }
+    
+    #navbar ul li{ 
+        list-style: none;
+        font-size: 2rem;
+    }
+    
+    
+    #navbar ul li a{
+        padding: 20px;
+        display: block;
+        border-radius: 30px;
+        text-decoration: none;
+        color: white;
+    
+    }
+    
+    #navbar ul li a:hover{ 
+        color: rgb(0, 0, 0);
+        background-color: white;
+    
+    }
+    
+    /*home section*/
+    #home{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 300px;
+        height: 570px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #home::before{
+        content: "";
+        background: url('bgimg.jpg') no-repeat center center/cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 700px;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.9;
+    }
+    
+    #home h1{
+        color: white;
+        font-family: Amarante;
+    
+    }
+    
+    #home p{
+        color: white; 
+        font-family: Amarante;
+        
+    }
+    
+    
+     #special{ 
+        display: flex;
+        top: 0;
+        left: 0;
+        right: 0;
+     }
+    
+    .special-cont h1{
+        font-family: Amarante; 
+    }
+    
+     #special .box{
+        border: 2px solid black;
+        padding: 5px;
+        margin: 12px;
+        border-radius: 8px;
+        background-color: rgb(220, 237, 229);
+        align-items: center;
+     }
+    
+    
+     .imgx{ 
+        margin: 0;
+        padding: 0;  
+        display: block;
+        margin: auto;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        border: 2px dashed black;
+     }
+    
+     #special .box h2{
+        font-family: Amarante;
+     }
+    
+    
+     .service-cont h1{
+        font-family: Amarante;
+    }
+    
+    
+    #service{ 
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    
+    #service .box{
+        border: 2px solid black;
+        padding: 5px;
+        margin: 15px;
+        border-radius: 8px;
+        background-color: rgb(252, 227, 235);
+        align-items: center;
+     }
+    
+     #service .box h2{
+         font-family: Amarante;
+     }
+    
+     #our-clients::before{  
+        content: "";
+        background : url('clientbg.png') no-repeat center center/cover;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        opacity: 0.4;
+     }
+    
+     #our-clients{ 
+        justify-items: center;
+        align-items: center;
+        height: 320px;
+        position: relative;
+     }
+    
+     #clients{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+     }
+    
+     #our-clients h1 { 
+        font-family: Amarante;
+        margin: 30px;
+     }
+    
+    .client{
+        padding: 30px; 
+    }
+    
+     .imgclient{ 
+        height: 80px;
+        width: 80px;
+     }
+    
+    /*Contact Section*/
+    #contactus{
+        position: relative;
+        margin: 80px 0 40px 0;
+        height: 450px;
+    }
+    
+    #contactus::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        opacity: 0.5;
+        background: url('contactus.jpg') no-repeat center center/cover;
+    }
+    
+    #contact-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+    
+    #contact-box textarea{
+        width: 100%;
+        padding: 0.5rem;
+        border-radius: 5px;
+        font-size: 1rem;
+    }
+    
+    #contact-box input{
+        width: 100%;
+        padding: 0.5rem;
+        border-radius: 5px;
+        font-size: 1rem;
+    }
+    
+    #contact-box form{
+        width: 50%;
+    }
+    
+    #contact-box label{
+        font-size: 1rem;
+    }
+    
+    /*Footer*/
+    footer{
+        background: black;
+        color: white;
+        padding: 30px 400px;
+        text-align: center;
+        bottom: 0;
+    }
+    
+    .hprime{
+        font-family: Amarante;
+        font-size: 2.5rem;
+        padding: 15px;
+        text-align: center;
+    }
+    
+    .h2prime{
+        font-size: 1.7rem;
+        padding: 15px;
+        text-align: center;
+    }
+    
+    .pprime{
+        font-size: 1.2rem;
+        padding: 15px;
+        text-align: center;
+    }
+    
+    .button1{
+        padding: 5px 15px;
+        border: 2px solid black;
+        background-color: brown;
+        border-radius: 6px;
+        color: white;
+        font-family: Amarante; 
+        font-size: 1rem;
+        margin: 12px;
+        cursor: pointer;
+    }
+    

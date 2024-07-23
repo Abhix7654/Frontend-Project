@@ -254,3 +254,50 @@ padding: 20px;
         color: #0a84ff;
        
 }
+#topic{
+        color: white;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+       
+        padding-top: 34px;
+        padding-bottom: 34px;
+       
+}#topic > span{
+        background-color: #3a3a3a;
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-top: 2px;
+        height: 17px;
+        border-radius: 8px;
+        font-weight: 100;
+        margin-right: 20px;
+        margin-left: 4px;
+
+}
+#topic > h3{
+        font-weight: 100;
+}
+#subj{
+        display: flex;
+
+        gap: 20px;
+        padding-top: 5px;
+
+}
+
+.s{
+        font-size: 18px;
+        color: rgb(207, 206, 206);
+         background-color: #5a5959;
+         padding-left: 26px;
+         padding-right: 26px;
+         padding-top: 12px;
+         padding-bottom: 12px;
+         border-radius: 25px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.s:hover{
+        color: rgb(56, 56, 56);
+        background-color: #ffffff;
+}

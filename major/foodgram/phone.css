@@ -1,0 +1,156 @@
+#navbar{
+        flex-direction: column;
+    }
+    
+    #title{
+        color: rgb(213, 236, 255);
+        font-size: 1.5rem;
+        justify-content: center;
+        text-align: center;
+        margin: 5px;
+    }
+    
+            /* logo & image*/
+    #logo{ 
+        justify-content: center;
+        margin: 0;
+    }
+    
+    #logo img{
+        margin: 5px 5px;
+        height: 60px;
+        border-radius: 50%;
+    }
+    
+    #navbar ul{   
+        font-family: Acme;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+    }
+    
+    #navbar ul li{ 
+        font-size: 1rem;
+        padding-bottom: 8px;
+    }
+    
+    #navbar ul li a{
+        padding: 0 6px; 
+    
+    }
+    
+    #home{
+        height: 280px;
+        padding: 5px;
+    }
+    
+    #home::before{
+        height: 460px;
+    }
+    
+    #special{
+        flex-direction: column;
+    }
+    
+    #special .box{
+         
+    }
+    
+    #service{
+        flex-direction: column;
+    }
+    
+    #service .box{
+         
+    }
+    
+    .imgx{  
+        height: auto;
+        width: 100px; 
+     }
+    
+    #clients{
+        flex-wrap: wrap;
+    
+     }
+    
+     #our-clients{  
+        height: 100px;
+        margin-bottom: 20px;
+    
+     }
+    
+     #our-clients::before{ 
+        height: 180px; 
+        margin-bottom: 20px;
+     }
+    
+    #clients img{
+        height: auto;
+        width: 60px;
+    }
+    
+    .client{
+        padding: 15px; 
+    }
+    
+    #contactus{ 
+        height: 330px; 
+        
+    }
+    
+    #contactus::before { 
+        margin: 0;  
+    }
+    
+    #contact-box{ 
+        padding-bottom: 0;
+    }
+    
+    #contact-box textarea{
+        width: 100%;
+        padding: 0.5rem;
+        border-radius: 5px;
+        font-size: 0.7rem;
+    }
+    
+    #contact-box input{
+        width: 100%;
+        padding: 0.5rem;
+        border-radius: 5px;
+        font-size: 0.7rem;
+    }
+    
+    #contact-box form{
+        width: 50%;
+    }
+    
+    #contact-box label{
+        font-size: 0.7rem;
+    }
+    
+    footer{ 
+        width: 100%;
+        padding: 12px; 
+        font-size: 0.7rem;
+    }
+    
+    .hprime{
+        font-size: 1.2rem;
+    }
+    
+    .h2prime{
+        font-size: 1rem;
+    }
+    
+    .pprime{
+        font-size: 0.8rem; 
+        text-align: center;
+    }
+    
+    .button1{
+        padding: 2px 7px; 
+        border-radius: 3px; 
+        font-size: 0.6rem;
+        margin: 6px; 
+    }
